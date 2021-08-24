@@ -1,0 +1,93 @@
+#outer
+{
+height:auto;
+width:1200px;
+background:-webkit-linear-gradient(red,white,skyblue,white);
+}
+#section1
+{
+	height:100px;
+	width:1200px;
+	background:-webkit-linear-gradient(skyblue,gray,red);
+}
+#logo
+{
+	height:100px;
+	width:200px;
+	float:left;
+}
+#logo:hover
+{
+-webkit-transform:rotate(1440deg);
+-webkit-transition:-webkit-transform 10s;
+
+}
+#heading
+{
+	height:100px;
+	width:1000px;
+	float:left;
+	font-size:80px;
+	color:green;
+}
+#menu
+{
+	height:50px;
+	width:1200px;
+	background:-webkit-linear-gradient(red,green,blue,yellow);
+	border-radius:20px 20px 20px 20px;
+	float:left;
+}
+#text
+{
+	height:50px;
+	width:300px;
+	
+	border-radius:20px 20px 20px 20px;
+	float:left;
+}
+
+#menu ul
+{
+list-style-type:none;	
+}
+#menu ul li
+{
+display:inline;
+padding:40px;	
+}
+#menu ul li a
+{
+	color:white;
+	text-decoration:none;
+}
+#menu ul li a:hover
+{
+color:yellow;
+font-size:20px;
+}
+#section2
+{
+	height:500px;
+	width:1200px;
+}
+#sec1
+{
+	height:500px;
+	width:600px;
+	float:left;
+}
+#sec2
+{
+	height:500px;
+	width:600px;
+	float:left;
+}
+
+#header
+{
+	height:150px;
+	width:1200px;
+	background-color:black;
+	margin-top:10px;
+}

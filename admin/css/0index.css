@@ -1,0 +1,45 @@
+
+#outer
+{
+	height:600px;
+	width:1200px;
+	background:-webkit-linear-gradient(red,white,skyblue,white);
+	border-radius:40px 40px 0px 0px;
+
+}
+#section
+{
+	height:100px;
+	width:1200px;
+	background:-webkit-linear-gradient(skyblue,gray,red);
+}
+#logo
+{
+	height:100px;
+	width:200px;
+	float:left;
+}
+#logo:hover
+{
+-webkit-transform:rotate(1440deg);
+-webkit-transition:-webkit-transform 10s;
+
+}
+#heading
+{
+	height:100px;
+	width:1000px;
+	float:left;
+	font-size:80px;
+	color:blue;
+	
+}
+
+
+#header
+{
+	height:150px;
+	width:1200px;
+	background-color:black;
+	margin-top:100px;
+}
